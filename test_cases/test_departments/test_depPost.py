@@ -29,5 +29,5 @@ class TestDepPost(unittest.TestCase):
         self.assertEqual(data['code'], res.status_code, data['name'])
 
 
-if __name__ == '__main__':
-    unittest.main()
+# if __name__ == '__main__':
+#     unittest.main()

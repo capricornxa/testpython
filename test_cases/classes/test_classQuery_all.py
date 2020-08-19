@@ -31,5 +31,5 @@ class TestClassQueryAll(unittest.TestCase):
         self.assertEqual(200, res.status_code, data['name'])
 
 
-if __name__ == '__main__':
-    unittest.main()
+# if __name__ == '__main__':
+#     unittest.main()
